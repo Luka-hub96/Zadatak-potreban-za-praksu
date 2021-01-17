@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Shoping Cart</title>
+</head>
+<body>
+    <div class="cart">
+    <div id="shape" onclick="show_hide()">
+       <img src="/images/shape.png" alt="shape">
+    </div>
+    <div id="shoping" class="shoping-cart">
+        <div class="header">
+            <h3>My Cart (5 items)</h3>
+        </div>
+        
+
+        <div id="up" class="btn-arrow">
+          <a href=""><i class="fas fa-arrow-up"></i></a> 
+        </div>
+
+        <div class="shoping-cart-items">
+            
+            <div id="one" class="cart-item ">
+                <img src="/images/main-image.png" alt="item1">
+                <div class="item-info">
+                <div class="item-name">Set of GT-S Series Cross Drilled</div>
+                <div class="item-brand">Brand: Brembo</div>
+                <div class="item-detail">Color: Red</div>
+                <div class="price">1 x $1770.00</div>
+                </div>
+            </div>
+            <div id="two" class="divider"></div>
+            <div  class="cart-item">
+                <img src="/images/main-image2.png" alt="item2">
+                <div class="item-info">
+                <div class="item-name">Just Disk GT-S Cross Drilled</div>
+                <div class="item-brand">Brand: Barbour International</div>
+                <div class="item-detail">Size: 405mm</div>
+                <div class="price">1 x $950.00</div>
+            </div>
+            </div>
+            <div class="divider"></div>
+            <div  class="cart-item">
+                <img src="/images/main-image3.png" alt="item3">
+                <div class="item-info">
+                <div class="item-name">GT Slotted 2 Piece Brake Rotors</div>
+                <div class="item-brand">Brand: Brembo</div>
+                <div class="item-detail">Color: Yellow</div>
+                <div class="price">2 x $1670.00</div>
+            </div>
+            </div>
+            <div class="divider"></div>
+            <div  class="cart-item">
+                <img src="/images/main-image4.png" alt="item3">
+                <div class="item-info">
+                <div class="item-name">GT Slotted 2 Piece Brake Rotors</div>
+                <div class="item-brand">Brand: Valvoline</div>
+                <div class="item-detail">Size: 354ml</div>
+                <div class="price">2 x $1670.00</div>
+            </div>
+            </div>
+        </div>
+
+        <div class="btn-arrow">
+           <a id="down" onclick="show_fade()"href="#"><i class="fas fa-arrow-down"></i></a> 
+        </div>
+
+        <div class="button">
+            <div class="btn1"> <a href="#">Edit cart</a></div>
+            <div class="btn2"><a href="#">CHECKOUT</a></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/app.js"></script>
+</body>
+</html>
